@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="light">
+
+    <div class="sun"></div>
+
+    <div class="moon"></div>
+
+    <div class="stars">
+      <div class="star" style="top: 20%; left: 15%;"></div>
+      <div class="star" style="top: 30%; left: 40%;"></div>
+      <div class="star" style="top: 10%; left: 60%;"></div>
+      <div class="star" style="top: 25%; left: 80%;"></div>
+      <div class="star" style="top: 50%; left: 70%;"></div>
+      <div class="star" style="top: 55%; left: 20%;"></div>
+      <div class="star" style="top: 65%; left: 50%;"></div>
+      <div class="star" style="top: 40%; left: 90%;"></div>
+    </div>
+
+    <div class="cloud"></div>
+    <div class="cloud cloud2"></div>
+
+    <div class="rain" id="rain">
+      <div class="drop" style="left: 10%; animation-delay: 0s;"></div>
+      <div class="drop" style="left: 20%; animation-delay: 0.4s;"></div>
+      <div class="drop" style="left: 30%; animation-delay: 0.2s;"></div>
+      <div class="drop" style="left: 40%; animation-delay: 0.6s;"></div>
+      <div class="drop" style="left: 50%; animation-delay: 0.1s;"></div>
+      <div class="drop" style="left: 60%; animation-delay: 0.5s;"></div>
+      <div class="drop" style="left: 70%; animation-delay: 0.3s;"></div>
+      <div class="drop" style="left: 80%; animation-delay: 0.7s;"></div>
+      <div class="drop" style="left: 90%; animation-delay: 0.2s;"></div>
+    </div>
+
+    <div class="snow" id="snow">
+      <div class="flake" style="left: 10%; animation-delay: 0s;"></div>
+      <div class="flake" style="left: 25%; animation-delay: 1s;"></div>
+      <div class="flake" style="left: 40%; animation-delay: 0.5s;"></div>
+      <div class="flake" style="left: 55%; animation-delay: 1.5s;"></div>
+      <div class="flake" style="left: 70%; animation-delay: 0.8s;"></div>
+      <div class="flake" style="left: 85%; animation-delay: 1.2s;"></div>
+    </div>
+
+    <div class="lightning" id="lightning"></div>
+    <div class="app">
+      <form>
+        <label for="cityInput"> Enter a city: </label>
+        <input type="text" id="cityInput" placeholder="Durban">
+        <input type="submit" value="Search">
+      </form>
+    <h1>Weather App</h1>
+    <h2 id="city"> Currently in Cape Town </h2>
+
+    <div class="temp" id="temp"> 21&deg;</div>
+
+    <div class="buttons">
+      <button class="btn them-btn" id="themeBtn">Toogle Day/Night</button>
+      <button class="btn weather-btn" id="weather-Btn"> Change Weather</button>
+    </div>
+
+    <p>
+    <div class="forecast" id="forecast">
+      &#9925; Tomorrow: <strong> 18&deg; / 24&deg; </strong><br>
+      &#9728; Monday: <strong> 20&deg; / 27&deg; </strong><br>
+      &#127783; Tuesday: <strong> 16&deg; / 22&deg; </strong>
+    </div>
+    </p>
+    <p>
+    <footer>
+      This project was 👨🏼‍💻 by <strong> <a href="#" target="_blank"> Andiswa Mayaba</a></strong> and is on
+      <a href="#" target="_blank"> GitHub </a> and 
+      <a href="#" target="_blank"> hosted on Netlify</a>
+    </p>
+  </footer>
+  </body>
+</html>
